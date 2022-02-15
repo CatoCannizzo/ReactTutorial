@@ -28,7 +28,7 @@ class Board extends React.Component {
 			<Square //Since we are in board this calls square and passes two things
 				value={this.state.square} //value this is the value of the array for the square render square was called with
 				onClick={() => this.handleClick(i)} //A function that square can now call called 'onClick'
-			/>
+			/> //useless comment
 		);
 	}
 
